@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import {deleteDoc, doc, onSnapshot } from "firebase/firestore"
 import { videoCollectionRef } from "../firebase/collections"
-import { db } from "../firebase/firebase.config"
+import { db } from "../firebase/firebase"
 export default function RealtimeVideos() {
   
   const [videos, setVideos] = useState([])

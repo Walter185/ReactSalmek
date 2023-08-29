@@ -1,6 +1,6 @@
 import { updateDoc } from "firebase/firestore";
 import { useState } from "react";
-import { db } from "../firebase/firebase.config";
+import { db } from "../firebase/firebase";
 import { doc } from "firebase/firestore";
 
 export default function EditVideos() {

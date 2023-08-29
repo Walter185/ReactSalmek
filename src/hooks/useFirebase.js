@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { auth } from "../firebase/firebase.config";
+import { auth } from "../firebase/firebase";
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithPopup, sendEmailVerification, sendPasswordResetEmail, updateProfile, GoogleAuthProvider, onAuthStateChanged, signOut } from "firebase/auth";
 import Swal from "sweetalert2";
 // import {  useLocation, useNavigate } from "react-router-dom";
